@@ -42,7 +42,10 @@ th {
 td {
   vertical-align: top;
   padding-right: 2em;
-  margin-bottom: 1em;
+}
+
+tbody td {
+  padding-bottom: 3em;
 }
 
 table td:nth-child(1) {
@@ -55,15 +58,12 @@ table td:nth-child(2) {
   width: 30%;
   font-weight: bold;
   /*second-column*/
-
 }
 
 table td:nth-child(3) {
   width: auto;
   /*third-column*/
 }
-
-
 
 tfoot {
   position: fixed;
