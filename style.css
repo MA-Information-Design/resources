@@ -1,0 +1,71 @@
+html,
+body, p, td {
+  font-family: 'Helvetica', 'Arial';
+  font-size: calc(9px + (14 - 9) * ((100vw - 320px) / (1600 - 320)));
+  font-style: normal;
+  line-height: 125%;
+  letter-spacing: -0.015em;
+  text-align: left;
+  -webkit-font-smoothing: auto;
+  -webkit-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 1em;
+  letter-spacing: -0.015em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+img {
+  width: 100%;
+}
+
+table {
+  text-align: left;
+  width: 80%;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding-right: 2em;
+  margin-bottom: 1em;
+}
+
+table td:nth-child(1) {
+  min-width: 150px;
+  width: 10%;
+  /*1-column*/
+}
+
+table td:nth-child(2) {
+  width: 30%;
+  font-weight: bold;
+  /*second-column*/
+
+}
+
+table td:nth-child(3) {
+  width: auto;
+  /*third-column*/
+}
+
+
+
+tfoot {
+  position: fixed;
+  bottom: 0%;
+}
